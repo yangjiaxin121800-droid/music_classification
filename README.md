@@ -206,4 +206,4 @@ python src/evaluate.py --model cnn_gru_attn
 
 ---
 
-Next, I’ll generate a **workflow chart** for this music genre classification project so it matches the clean diagram style from your first README. Do you want me to include **data preprocessing → model training → evaluation** with all main components like CNN, GRU, and Attention in the diagram?
+
