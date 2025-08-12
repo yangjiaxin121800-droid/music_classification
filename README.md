@@ -1,8 +1,4 @@
 
-## **README.md**
-
-  
-
 # **Music Genre Classification**
 
   
