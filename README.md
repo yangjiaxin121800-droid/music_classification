@@ -1,8 +1,5 @@
-Alright — I’ll prepare a README in the **BC_RadiogenomicGAN** style for your **Music Genre Classification** project, and then create a clean workflow diagram like the one we did for your first project.
 
----
-
-## **README.md (Draft)**
+## **README.md **
 
   
 
