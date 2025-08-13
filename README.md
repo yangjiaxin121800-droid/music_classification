@@ -112,53 +112,54 @@ Our final model architecture:
 
 ## Project Structure
 
-.
-├── 0-feature extraction/
-│   ├── 000002_mel_spectrogram.png
-│   ├── Dataset.py
-│   ├── Feature.py
-│   └── log.txt
-├── 1-model selection/
-│   ├── Basic CNN-GRU/
-│   │   ├── Basic Model.py
-│   │   ├── Basic Model.txt
-│   │   ├── cnn_gru_model_20250807_234024_best.pth
-│   │   └── cnn_gru_model_20250807_234024_history.json
-│   ├── HybridTest.py
-│   ├── model comparison.txt
-│   └── structure.html
-├── 2-batch size/
-│   ├── grid_search_results_20250806_190931.json
-│   ├── grid_search_summary_20250806_190931.csv
-│   └── viz.png
-├── 3-learning rate/
-│   ├── CNN-GRU-LRSearch.py
-│   ├── grid_search_results_20250808_144645.json
-│   └── viz.png
-├── 4-optimizer/
-│   ├── Optimizer/
-│   │   ├── AdamW.py
-│   │   ├── cnn_gru_model_20250808_225347_best.pth
-│   │   ├── cnn_gru_model_20250808_225347_history.json
-│   │   └── log.txt
-│   └── Scheduler/
-│       ├── AdamW-Scheduler.py
-│       ├── cnn_gru_model_20250809_002212_best.pth
-│       ├── cnn_gru_model_20250809_002212_history.json
-│       └── log.txt
-├── 5-tuning/
-│   ├── CNN-GRU-Search.py
-│   ├── json file corrupted due to system crush
-│   ├── log.txt
-│   └── top3.png
-├── 6-final model/
-│   ├── Final CNN-GRU.py
-│   ├── cm.png
-│   ├── cnn_gru_model_20250809_163418_best.pth
-│   ├── cnn_gru_model_20250809_163418_results.json
-│   └── log.txt
-├── README.md
-└── workflow_forcast.png
+
+- **./**
+  - **0-feature extraction/**
+    - `000002_mel_spectrogram.png`
+    - `Dataset.py`
+    - `Feature.py`
+    - `log.txt`
+  - **1-model selection/**
+    - **Basic CNN-GRU/**
+      - `Basic Model.py`
+      - `Basic Model.txt`
+      - `cnn_gru_model_20250807_234024_best.pth`
+      - `cnn_gru_model_20250807_234024_history.json`
+    - `HybridTest.py`
+    - `model comparison.txt`
+    - `structure.html`
+  - **2-batch size/**
+    - `grid_search_results_20250806_190931.json`
+    - `grid_search_summary_20250806_190931.csv`
+    - `viz.png`
+  - **3-learning rate/**
+    - `CNN-GRU-LRSearch.py`
+    - `grid_search_results_20250808_144645.json`
+    - `viz.png`
+  - **4-optimizer/**
+    - **Optimizer/**
+      - `AdamW.py`
+      - `cnn_gru_model_20250808_225347_best.pth`
+      - `cnn_gru_model_20250808_225347_history.json`
+      - `log.txt`
+    - **Scheduler/**
+      - `AdamW-Scheduler.py`
+      - `cnn_gru_model_20250809_002212_best.pth`
+      - `cnn_gru_model_20250809_002212_history.json`
+      - `log.txt`
+  - **5-tuning/**
+    - `CNN-GRU-Search.py`
+    - `json file corrupted due to system crush`
+    - `log.txt`
+    - `top3.png`
+  - **6-final model/**
+    - `Final CNN-GRU.py`
+    - `cm.png`
+    - `cnn_gru_model_20250809_163418_best.pth`
+    - `cnn_gru_model_20250809_163418_results.json`
+    - `log.txt`
+  - `README.md`
+  - `workflow_forcast.png`
 
 
 
