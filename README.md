@@ -36,7 +36,8 @@ We use the **FMA (Free Music Archive) Small** dataset ([mdeff/fma](https://githu
 - **Features Extracted:** Mel-spectrograms and related audio features for model input.
     
 
-
+## **Workflow**
+![workflow](./workflow_forcast.png)
 
 ## **Methods**
 
