@@ -20,7 +20,6 @@ On the **FMA (Free Music Archive)** dataset, our best model achieves:
     for an **8-genre classification task**, outperforming baseline models and demonstrating its effectiveness for music recommendation pipelines.
     
 
----
 
 ## **Dataset**
 
@@ -37,7 +36,7 @@ We use the **FMA (Free Music Archive) Small** dataset ([mdeff/fma](https://githu
 - **Features Extracted:** Mel-spectrograms and related audio features for model input.
     
 
----
+
 
 ## **Methods**
 
@@ -88,7 +87,7 @@ Our final model architecture:
 - Early stopping based on validation accuracy
     
 
----
+
 
 ## **Results**
 
@@ -108,7 +107,7 @@ Our final model architecture:
 - Attention boosts performance by focusing on salient segments.
     
 
----
+
 
 ## **Project Structure**
 
@@ -128,7 +127,7 @@ Our final model architecture:
 └── README.md                 # Project documentation
 ```
 
----
+
 
 ## **Requirements**
 
@@ -157,7 +156,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
----
+
 
 ## **Usage**
 
@@ -182,7 +181,7 @@ python src/train.py --model cnn_gru_attn
 python src/evaluate.py --model cnn_gru_attn
 ```
 
----
+
 
 ## **References**
 
@@ -197,6 +196,6 @@ python src/evaluate.py --model cnn_gru_attn
 5. I. Loshchilov and F. Hutter, _Decoupled Weight Decay Regularization_, arXiv:1711.05101, 2017.
     
 
----
+
 
 
